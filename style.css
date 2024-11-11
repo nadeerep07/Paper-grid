@@ -1,0 +1,178 @@
+.top{
+    height: 30px;
+    background-color: black;
+    overflow-y: hidden;
+}
+.top:hover{
+    background-color:rgb(65, 59, 59);
+}
+.papper{
+    width: 130px;
+    height: 30px;
+    margin-left: 30px;
+} 
+.home{
+    margin-left: 50px;
+}
+
+.hov:hover{
+    text-decoration: underline;
+}
+.image{
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+    padding-left: 38px;
+}
+.over{
+    overflow-x: hidden;
+}
+
+.hh{
+    margin-top: 50px;
+}
+.pp{
+    padding-top:10px;
+   font-size: 25px;
+}
+
+
+.p-class{
+    text-align: center;
+    
+}
+
+.images{
+   
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.lastcont{
+    overflow: hidden;
+}
+.images{
+    height: 700px;
+    width: 550px;
+    
+}
+.img1{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; 
+}
+.footer{
+  
+    height: 600px;
+    margin-top: 100px;
+    text-align: center;
+}
+.h-ef:hover{
+  color: hwb(0 100% 0%);
+  cursor: pointer;
+}
+.h-ef{
+    padding-top: 100px;
+}
+.lasti{
+    position: relative;
+    padding-top: 80px;
+}
+@media(max-width:1244px){
+    .images{
+        width: 400px;
+        height: 500px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+   
+}
+
+@media(max-width:768px){
+    .image{
+        width: 180px;
+        height: 155px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+   
+}
+
+
+@media(max-width:579px){
+    .image{
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+        padding-left: 40px;
+    }
+
+    
+}
+
+@media(max-width:483px){
+    .image{
+        width: 180px;
+        height: 180px;
+        margin-top: 30px;
+        padding-left: 40px;
+    }
+
+    
+}
+@media(max-width:460px){
+    .image{
+        width: 160px;
+        height: 160px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+
+    
+}
+@media(max-width:378px){
+    .image{
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+       
+    }
+
+    
+}
+@media(max-width:350px){
+    .image{
+        width: 120px;
+        height: 120px;
+        margin-top: 30px;
+       
+    }
+
+    
+}
+
+@media(max-width:991px){
+    .images{
+       width: 100%;
+       margin: 100px;
+       height: 600px;
+
+    }
+   
+}
+
+@media(max-width:549px){
+    .images{
+        width: 450px;
+        height: 450px;
+        margin-top: 30px;
+       
+    }
+
+    
+}
+@media (max-width: 1050px) {
+    .lasti {
+     font-size: 7px;
+    }
+  }
+
